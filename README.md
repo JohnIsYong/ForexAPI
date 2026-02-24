@@ -45,4 +45,4 @@ Then came the service level, DAO and the controller. The three most important fu
 - `http://localhost:8080/forexqueries/int/{queryNumber}`: Get Method
   - Returns a specific query from the database with the matching query number of the path variable
 - `http://localhost:8080/forexqueries/{api-key}`: Post Method
-  - 
+  - ![Screenshot of an example post method](blob/main/postMethod-ForexAPI.PNG)
