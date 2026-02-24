@@ -46,7 +46,7 @@ Then came the service level, DAO and the controller. The three most important fu
   - Returns a specific query from the database with the matching query number of the path variable
 - `http://localhost:8080/forexqueries/{api-key}`: Post Method
   - Calls the ExchangeRate-API using the given API key and creates a query based on the two currencies included in the JSON file. [Screenshot of an example post method](postMethod-ForexAPI.PNG)
-- `/forexqueries/int/{queryNumber}`: Delete Method
+- `http://localhost:8080/forexqueries/int/{queryNumber}`: Delete Method
   - Deletes a query from the database using the given path variable
-- `/forexqueries/{currency}`: Delete Method
+- `http://localhost:8080/forexqueries/{currency}`: Delete Method
   - Deletes all queries from the database that have the currency as the `inputCurrency`
